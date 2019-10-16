@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
   match '/status', to: 'home#status', via: [:get]
 
+  resources :widgets, only: [:index]
+
   namespace :api do
     namespace :v1 do
       resources :callbacks, only: [] do
