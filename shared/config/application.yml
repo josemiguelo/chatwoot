@@ -1,9 +1,10 @@
 #pusher
 
-pusher_app_id: ''
-pusher_key: ''
-pusher_secret: ''
-pusher_cluster: ''
+pusher_app_id: '884785'
+pusher_key: '8f6949c601c154628e1b'
+pusher_secret: '814c5b2a0014f58b3278'
+pusher_cluster: 'us2'
+REDIS_URL: 'redis:://127.0.0.1:6379'
 
 #fb app
 fb_verify_token: ''
@@ -36,4 +37,3 @@ CHARGEBEE_WEBHOOK_PASSWORD: ''
 #sentry
 SENTRY_DSN: ''
 
-REDIS_URL: ''

@@ -7,7 +7,8 @@
     <Thumbnail
       :src="chat.meta.sender.thumbnail"
       :badge="chat.meta.sender.channel"
-      class="columns"
+      :username="chat.meta.sender.name"
+      size="40px"
     />
     <div class="conversation--details columns">
       <h4 class="conversation--user">
